@@ -9,8 +9,8 @@ else:
     print('Test 1 error')
     sys.exit(1)
 
-#тест2 аргумент 5
-code = subprocess.run('python project.py 5', stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL);
+#тест2 аргумент Карусель
+code = subprocess.run('python project.py Карусель', stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL);
 if(code.returncode == 0):
     print('Test 2 proshel uspeshno')
 else:
